@@ -82,7 +82,7 @@ Implemente en el tipo **EstadisticasCarrera**, que tiene la siguiente descripci�
 - ***Map\<String, List\<Ganador\>\> getGanadoresPorNacionalidad():*** Devuelve un Map en el que las claves son las nacionalidades y los valores la lista de ganadores de esa nacionalidad.
 - ***Map\<String, Long\> cuentaGanadoresPorNacionalidad():*** Devuelve un Map en el que las claves son las nacionalidades y los valores el número de ganadores de esa nacionalidad.
 - ***Map\<String, Integer\> getTotalEtapasGanadasPorEquipo():*** Devuelve un Map en el que las claves son los equipos, y los valores el número total de etapas ganadas por los equipos.
-- ***Map\<String, Intege\r> cuentaCarrerasGanadasPorCiclista():*** Devuelve un *Map* en el que las claves son el nombre de los corredores, y los valores, el número de veces que el corredor ha ganado la carrera.
+- ***Map\<String, Integer\> cuentaCarrerasGanadasPorCiclista():*** Devuelve un *Map* en el que las claves son el nombre de los corredores, y los valores, el número de veces que el corredor ha ganado la carrera.
 - ***Map\<String, Ganador\> ganadorMasDiasMaillotPorNacionalidad():*** Devuelve un Map en el que las claves son las nacionalidades y los valores el Ganador de esa nacionalidad que más días ha tenido puesto el maillot. 
 - ***String getNacionalidadMasGanadores():*** Devuelve la nacionalidad que ha tenido más ganadores.
 
