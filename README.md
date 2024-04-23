@@ -82,8 +82,8 @@ Implemente en el tipo **EstadisticasCarrera**, que tiene la siguiente descripci�
 - ***Map\<String, List\<Ganador\>\> getGanadoresPorNacionalidad():*** Devuelve un Map en el que las claves son las nacionalidades y los valores la lista de ganadores de esa nacionalidad.
 - ***Map\<String, Long\> cuentaGanadoresPorNacionalidad():*** Devuelve un Map en el que las claves son las nacionalidades y los valores el número de ganadores de esa nacionalidad.
 - ***Map\<String, Integer\> getTotalEtapasGanadasPorEquipo():*** Devuelve un Map en el que las claves son los equipos, y los valores el número total de etapas ganadas por los equipos.
-- ***Map<String, Integer> cuentaCarrerasGanadasPorCiclista():*** Devuelve un *Map* en el que las claves son el nombre de los corredores, y los valores, el número de veces que el corredor ha ganado la carrera.
-- ***Map<String, Ganador> ganadorMasDiasMaillotPorNacionalidad():*** Devuelve un Map en el que las claves son las nacionalidades y los valores el Ganador de esa nacionalidad que más días ha tenido puesto el maillot. 
+- ***Map\<String, Intege\r> cuentaCarrerasGanadasPorCiclista():*** Devuelve un *Map* en el que las claves son el nombre de los corredores, y los valores, el número de veces que el corredor ha ganado la carrera.
+- ***Map\<String, Ganador\> ganadorMasDiasMaillotPorNacionalidad():*** Devuelve un Map en el que las claves son las nacionalidades y los valores el Ganador de esa nacionalidad que más días ha tenido puesto el maillot. 
 - ***String getNacionalidadMasGanadores():*** Devuelve la nacionalidad que ha tenido más ganadores.
 
 - ***Boolean hayAlgunGanador(String nacionalidad):*** Devuelve *true* si entre los ganadores de la carrera hay alguno de la nacionalidad dada como parámetro.
@@ -97,9 +97,9 @@ Implemente en el tipo **EstadisticasCarrera**, que tiene la siguiente descripci�
 
 ![image](https://user-images.githubusercontent.com/72299672/231244963-0e2051ac-9e9a-4171-be91-2e82b9eebf94.png)**Figura 2. Extracto del fichero generado por *guardaGanadoresNacionalidadConAnyos***
 
-- ***Map<String, List<Ganador>> getMasDiasMaillotPorNacionalidad(Integer n):*** Dado un número n, devuelve un Map en el que las claves son las nacionalidades y los valores son listas con los n ganadores que hayan llevado más días el maillot en la carrera que ganaron.
-- ***Map<String, Ganador> ganadorMasDiasMaillotPorEquipo():*** Devuelve un Map en el que las claves son los nombres de los equipos y los valores representan al ganador de ese equipo que más días llevó el maillot amarillo en la carrera que ganó. 
-- ***List<String> getNacionalidadesGanadores():*** 
+- ***Map\<String, List\<Ganador\>\> getMasDiasMaillotPorNacionalidad(Integer n):*** Dado un número n, devuelve un Map en el que las claves son las nacionalidades y los valores son listas con los n ganadores que hayan llevado más días el maillot en la carrera que ganaron.
+- ***Map\<String, Ganador\> ganadorMasDiasMaillotPorEquipo():*** Devuelve un Map en el que las claves son los nombres de los equipos y los valores representan al ganador de ese equipo que más días llevó el maillot amarillo en la carrera que ganó. 
+- ***List\<String\> getNacionalidadesGanadores():*** 
 Devuelve una lista ordenada alfabéticamente con las nacionalidades de los ganadores.
 - ***List\<String\> getCiclistasTop(Integer n):*** Devuelve una lista con el nombre de los n ciclistas top. La lista estará ordenada de mayor a menor número de carreras ganadas por los ciclistas, de forma que el primer ciclista de la lista será el que ha ganado más carreras. La lista solo debe tener n elementos. Así, si n vale 3 la lista contendrá los tres mejores ciclistas de la carrera.
 
