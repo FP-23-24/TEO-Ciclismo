@@ -52,7 +52,7 @@ Implemente en el tipo **EstadisticasCarrera**, que tiene la siguiente descripci�
 **Propiedades**:
 
 - **nombre carrera:** String. Básica, consultable. Representa el nombre de la carrera.
-- **ganadores:** List<Ganador>. Básica, consultable. Representa la lista de ganadores de la carrera.
+- **ganadores:** List\<Ganador\>. Básica, consultable. Representa la lista de ganadores de la carrera.
 
 **Constructores**:
 
